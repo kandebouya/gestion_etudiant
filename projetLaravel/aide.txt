@@ -1,0 +1,10 @@
+importe juste la base de données c'est plus simple. 
+sinon tu fais : 
+   php artisan migrate
+
+et tu exécute cett commande dans phpmyadmin :
+
+INSERT INTO `users` (`id`, `username`, `email`, `password`, `lastname`, `firstname`, `roles_id`, `remember_token`, `deleted_at`, `created_at`, `updated_at`) VALUES (NULL, 'admin', 'admin@gmail.com', '$2y$10$wsbCXbNFyqdMW.OU.9znluQ1PCPyR/Whp6eEOV9SH8aTesdk.2jE6\r\n', 'Mr', 'admin', '1', 'pwjKAubSXI', NULL, '2019-02-03 22:27:45', '2019-02-03 22:27:45');
+
+login = admin@gmail.com
+password = admin
